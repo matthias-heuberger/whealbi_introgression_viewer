@@ -10,7 +10,7 @@ library(RColorBrewer)
 
 # download the data in current working directory
 
-download.file("https://zenodo.org/records/10406469/files/WW_bwa_minQ30_bamCompare", method="wget","WW_bwa_bamCoverage_hexaploid_final")
+download.file("https://zenodo.org/records/10406469/files/WW_bwa_minQ30_bamCompare", "WW_bwa_bamCoverage_hexaploid_final")
 
 # load the data
 
