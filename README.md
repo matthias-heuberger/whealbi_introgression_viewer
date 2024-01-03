@@ -1,6 +1,7 @@
 # Prerequisites:
 
 -Download the file whealbi_introgression_viewer.app
+
 -Working R installation
 
 # Install dependencies (in R):
