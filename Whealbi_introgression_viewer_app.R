@@ -9,9 +9,9 @@ library(RColorBrewer)
 
 
 # download the data in current working directory
-
+option(timeout=1000)
 download.file("https://zenodo.org/records/10406469/files/WW_bwa_minQ30_bamCompare", "WW_bwa_bamCoverage_hexaploid_final")
-
+option(timeout=60)
 # load the data
 
 df <- read.table("WW_bwa_bamCoverage_hexaploid_final", header = T)
